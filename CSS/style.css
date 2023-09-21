@@ -1,0 +1,30 @@
+#mole-img {
+    display: table;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+#input-form h1 {
+    color: deepskyblue;
+}
+
+#input-form {
+    display: table;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#input-num {
+    width:500px;
+    height:40px;
+}
+
+#calculate-result {
+    display: table;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 50px;
+}

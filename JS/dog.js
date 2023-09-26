@@ -4,13 +4,13 @@ const resultSpan = document.querySelector("#calculate-result span");
 let accumulationPoint = 0;
 
 function countBonusPoint(n) {
-    const plusPoint = (n/500)*300;
+    const plusPoint = (n/500)*260;
     accumulationPoint += plusPoint;
     loopChestCheck(plusPoint);
 }
 
 function loopChestCheck(plusPoint){
-    if (plusPoint >= 300) {
+    if (plusPoint >= 100) {
         countBonusPoint(plusPoint);
     } else {
         resultSpan.innerText = parseInt(accumulationPoint);
@@ -20,7 +20,7 @@ function loopChestCheck(plusPoint){
 function countChestPoint(event) {
     event.preventDefault();
     const chestPoint = parseInt(numInput.value);
-    const plusPoint = (chestPoint/500)*300;
+    const plusPoint = (chestPoint/500)*260;
     accumulationPoint += chestPoint+plusPoint;
     loopChestCheck(plusPoint);
 }

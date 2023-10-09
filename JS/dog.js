@@ -10,10 +10,11 @@ function countBonusPoint(n) {
 }
 
 function loopChestCheck(plusPoint){
-    if (plusPoint >= 100) {
+    if (plusPoint >= 260) {
         countBonusPoint(plusPoint);
     } else {
         resultSpan.innerText = parseInt(accumulationPoint);
+        accumulationPoint = 0;
     }
 }
 

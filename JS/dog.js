@@ -20,6 +20,7 @@ function loopChestCheck(plusPoint){
 
 function countChestPoint(event) {
     event.preventDefault();
+    accumulationPoint = 0;
     const chestPoint = parseInt(numInput.value);
     const plusPoint = (chestPoint/500)*260;
     accumulationPoint += chestPoint+plusPoint;

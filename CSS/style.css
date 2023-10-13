@@ -1,3 +1,48 @@
+@charset "utf-8";
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h2 {
+	margin-left:0px;
+}
+
+header > nav {
+	width:600px;
+}
+
+header ul {
+	width:90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul > li {
+	font-size:20px;
+	display: flex;
+	align-items: center;
+}
+
 #mole-img {
     display: table;
     margin-left: auto; 
